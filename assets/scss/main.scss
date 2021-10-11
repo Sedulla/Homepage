@@ -13,6 +13,7 @@ $font-size-normal: 24px;
 
 body {
   font-family: $font-stack;
+  overflow-y: hidden;
 }
 
 /* Navigation */
@@ -121,7 +122,7 @@ body {
   .profile-photo {
     height: 500px;
     top: 24px;
-    left: 44px;
+    left: 45px;
     transition: 300ms;
     position: relative;
     z-index: 100;
@@ -136,7 +137,7 @@ body {
     width: 500px;
     height: 500px;
     left: 45px;
-    top: $font-size-normal;
+    top: 24px;
     background: #44a1a0;
     transform: rotate(-6deg);
   }

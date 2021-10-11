@@ -5,6 +5,7 @@
 
 body {
   font-family: "Open Sans", sans-serif;
+  overflow-y: hidden;
 }
 
 /* Navigation */
@@ -102,7 +103,7 @@ body {
 .header .hero__image .profile-photo {
   height: 500px;
   top: 24px;
-  left: 44px;
+  left: 45px;
   transition: 300ms;
   position: relative;
   z-index: 100;
